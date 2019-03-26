@@ -1,0 +1,14 @@
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\CsharpPoker.deps.json
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\CsharpPoker.runtimeconfig.json
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\CsharpPoker.runtimeconfig.dev.json
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\CsharpPoker.dll
+C:\Users\v-brianl\source\repos\CsharpPoker\obj\Debug\netcoreapp2.1\CsharpPoker.csprojAssemblyReference.cache
+C:\Users\v-brianl\source\repos\CsharpPoker\obj\Debug\netcoreapp2.1\CsharpPoker.csproj.CoreCompileInputs.cache
+C:\Users\v-brianl\source\repos\CsharpPoker\obj\Debug\netcoreapp2.1\CsharpPoker.AssemblyInfoInputs.cache
+C:\Users\v-brianl\source\repos\CsharpPoker\obj\Debug\netcoreapp2.1\CsharpPoker.AssemblyInfo.cs
+C:\Users\v-brianl\source\repos\CsharpPoker\bin\Debug\netcoreapp2.1\CsharpPoker.pdb
+C:\Users\v-brianl\source\repos\CsharpPoker\obj\Debug\netcoreapp2.1\CsharpPoker.dll
+C:\Users\v-brianl\source\repos\CsharpPoker\obj\Debug\netcoreapp2.1\CsharpPoker.pdb
