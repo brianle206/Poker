@@ -20,8 +20,20 @@ namespace CsharpPoker
 
         public Card HighCard()
         {
-
             return Cards.OrderByDescending(x => x.Value).FirstOrDefault();
+        }
+
+        public HandRank GetHandRank()
+        {
+            if (Cards.All(x => x == Cards.First()))
+            {
+                return HandRank.Flush;
+            }
+            else
+            {
+                return 0;
+            }
+            
         }
     }
 }
