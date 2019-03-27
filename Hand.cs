@@ -23,17 +23,11 @@ namespace CsharpPoker
             return Cards.OrderByDescending(x => x.Value).FirstOrDefault();
         }
 
-        public HandRank GetHandRank()
+        public HandRank GetHandRank(Hand Cards)
         {
-            if (Cards.All(x => x == Cards.First()))
-            {
-                return HandRank.Flush;
-            }
-            else
-            {
-                return 0;
-            }
+            HasFlush(Cards) ? GetHandRank.Flush : false;
             
         }
+        private bool HasFlush(IEnumerable<Card> Cards) => Cards.All(c => Cards.First().Suit == c.Suit);
     }
 }
