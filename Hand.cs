@@ -27,6 +27,7 @@ namespace CsharpPoker
             if (HasRoyalFlush()) return HandRank.RoyalFlush;
             if (HasFlush()) return HandRank.Flush;
             if (HasFourOfAKind()) return HandRank.FourOfAKind;
+            if (HasStraight(Cards)) return HandRank.Straight;
             if (HasFullHouse()) return HandRank.FullHouse;
             if (HasThreeOfAKind()) return HandRank.ThreeOfAKind;
             if (HasPair()) return HandRank.Pair;
@@ -40,13 +41,10 @@ namespace CsharpPoker
         private bool HasThreeOfAKind() => HasOfAKind(3);
         private bool HasFourOfAKind() => HasOfAKind(4);
         private bool HasFullHouse() => HasPair() && HasThreeOfAKind();
-        private bool HasStraight()
-        {
-            var hand = Cards.OrderByDescending(c => c.Value).Reverse();
-            var re = hand.Select((i,j) => i.Value-j.Value).Distinct().Skip(1).Any();
-            
-        }
-
+        private bool HasStraight(IEnumerable<Card> cards) => cards.OrderBy(card => card.Value)
+                                                                  .SelectConsecutive((current, next) => current.Value + 1 == next.Value)
+                                                                  .All(value => value);
+        
        
     }
 }
